@@ -1,0 +1,19 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin: auto;
+  padding-top: 10px;
+  gap: 20px;
+  text-align: center;
+}
+.products > div > img{
+    height: 70px;
+    width: 100px;
+}
+.products > div > p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.products > div > p:hover{
+    color: blue;
+}
