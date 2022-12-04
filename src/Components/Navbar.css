@@ -1,0 +1,61 @@
+.main-nav{
+    background-color: rgb(40,116,240);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto
+}
+.logo > img{
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ex{
+    margin-top: -8px;
+    color: white;
+}
+.ex > span{
+    color: yellow;
+}
+.menu-link >ul > li{
+    list-style: none;
+
+}
+.menu-link >ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.menu-link >ul{
+    display: flex;
+    gap: 30px;
+}
+.search-box{
+    width: 300px;
+    height: 30px;
+    border: 1px solid white;
+    align-items: center;
+    background-color: azure;
+}
+.search-box > input{
+    width: 90%;
+    height: 90%;
+    border: 0ch;
+}
+.search-icon{
+    height: 20px;
+}
+.login-btn > button{
+    height: 36px;
+    width: 100px;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.icon{
+    color: white;
+}
