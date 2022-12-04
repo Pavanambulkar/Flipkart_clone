@@ -2,6 +2,8 @@ import React from "react";
 import "./Navbar.css";
 import {FcSearch} from 'react-icons/fc'
 import {AiOutlineDown, AiOutlineShoppingCart} from 'react-icons/ai'
+import {GiHamburgerMenu} from 'react-icons/gi'
+
 const Navbar = () => {
   return (
     <>
@@ -30,8 +32,9 @@ const Navbar = () => {
 
          </ul>
         </div>
-    
+        
       </nav>
+      
     </>
   );
 };

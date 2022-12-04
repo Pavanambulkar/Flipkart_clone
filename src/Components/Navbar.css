@@ -59,3 +59,14 @@
 .icon{
     color: white;
 }
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .main-nav{
+        flex-direction: column;
+    }
+    .menu-link >ul{
+        flex-direction: column;
+    }
+    .login-btn > button{
+        margin-top: 10px;
+    }
+}
